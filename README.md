@@ -1,2 +1,5 @@
 # student-management-system-java
-Console-based Student Management System built using Core Java, showcasing object-oriented principles, collections, and structured application design.
+- Console-based student management system.
+- Features: Add, View, Search, Update, Delete students.
+- Data is stored in memory, so it does not persist after program exit.
+- Built with Java (OOP concepts, ArrayList, Exception handling).
