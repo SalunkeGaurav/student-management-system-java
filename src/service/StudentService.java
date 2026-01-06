@@ -5,7 +5,7 @@ import model.Student;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentService {
+public class StudentService extends Student{
     private final ArrayList<Student> students = new ArrayList<>();
 
     public boolean addStudent(Student student) {
@@ -62,8 +62,6 @@ public class StudentService {
     public boolean isEmpty() {
         return students.isEmpty();
     }
-
-
 
 
 
